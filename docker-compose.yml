@@ -1,0 +1,24 @@
+services:
+  portfolio:
+    container_name: portfoliosyu
+    image: nginx:alpine
+
+    volumes:
+      - /data/stacks/portfolio-react/dist:/usr/share/nginx/html:ro
+
+    ports:
+      - "3001:80"
+
+    restart: unless-stopped
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run --token eyJhIjoiMjU2YzIyNzAwMmE2OTQ4MjAyYzM3MjVjMDZhNmEwOWMiLCJ0IjoiMzJkODA3OGEtYmE2YS00NTYwLWE5OWQtNjc5YjQ4YzQ4OWQwIiwicyI6Ik5UTmxObU0zWTJVdE5qUTBOaTAwTVdFekxXSmpNak10WlRJM01XTXhNakJoWlRJMCJ9
+    depends_on:
+      - portfolio
+
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
