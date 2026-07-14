@@ -14,7 +14,7 @@ const projectsData = [
     highlights: "Application management dashboard, Status tracking and updates, Search and filtering functions, Data visualisation with charts, Responsive web interface, Docker container deployment",
     role: "Designed and developed the complete system, including database design, backend development, frontend user interface, CRUD functionality, status management, reporting dashboard, and Docker deployment.",
     flow: "Add job opportunity, Store application details in database, Update application status, Track interview progress, Generate dashboard statistics, Monitor overall job search performance",
-    link: "",
+    link: "https://github.com/syumairaazhar/job-tracker.git",
     images: ["/images/job-tracker-dashb.png", "/images/job-tracker-archi.png"]
   },
   {
@@ -27,7 +27,7 @@ const projectsData = [
     highlights: "Real-time license plate recognition, Automated gate control, Centralized vehicle database",
     role: "Designed and developed the full system including plate recognition, backend integration, and database management.",
     flow: "Capture vehicle image, Detect license plate, Verify plate in database, Authorize access, Open gate automatically",
-    link: "",
+    link: "https://github.com/syumairaazhar/lpr.git",
     images: ["/images/automated_gate.jpeg"]
   },
   {

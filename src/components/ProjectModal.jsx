@@ -16,15 +16,15 @@ function ProjectModal({ project, isOpen, onClose }) {
   return (
     <AnimatePresence>
       <div className="project-modal">
-        <motion.div 
+        <motion.div
           className="modal-backdrop"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
         />
-        
-        <motion.div 
+
+        <motion.div
           className="modal-content"
           initial={{ opacity: 0, scale: 0.9, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -84,7 +84,7 @@ function ProjectModal({ project, isOpen, onClose }) {
 
           {project.link && (
             <a href={project.link} className="btn project-link-btn" target="_blank" rel="noopener noreferrer">
-              <span>🔗 View Project Source / Demo</span>
+              <span>View Project Source / Demo</span>
             </a>
           )}
         </motion.div>
