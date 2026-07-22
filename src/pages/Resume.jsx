@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import resumePdf from "../assets/resume/Syumaira_Azhar_Resume_ATS.pdf";
+import resumePdf from "../assets/resume/Resume_Job_Application_SyumairaAzhar.pdf";
 
 const skills = [
   "HTML", "CSS", "JavaScript", "PHP", "MySQL", "SQLite", 
