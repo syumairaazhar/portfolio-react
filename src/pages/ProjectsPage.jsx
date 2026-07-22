@@ -53,7 +53,7 @@ const projectsData = [
     highlights: "Passenger registration and management, Ticket booking and cancellation, Route and schedule management, MySQL database integration, Automated fare calculation, Data storage and retrieval functionality",
     role: "Designed and developed the complete application, including database design, user interface implementation, booking workflows, database connectivity, and system testing. Responsible for implementing core functionalities such as passenger management, ticket reservations, and route administration.",
     flow: "Register passenger information, Select route and travel schedule, Book ticket and generate reservation record, Store booking details in MySQL database, Retrieve passenger and ticket information, Manage route and booking records",
-    link: "",
+    link: "https://github.com/syumairaazhar/bus_ticketing_system.git",
     images: ["/images/bus_ticketing.png"]
   },
   {
