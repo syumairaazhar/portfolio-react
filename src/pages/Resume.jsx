@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import resumePdf from "../assets/resume/Resume_SyumairaAzhar.pdf";
+import resumePdf from "../assets/resume/Syumaira_Azhar_Resume_ATS.pdf";
 
 const skills = [
   "HTML", "CSS", "JavaScript", "PHP", "MySQL", "SQLite", 
@@ -40,7 +40,7 @@ function Resume() {
               className="btn" 
               target="_blank" 
               rel="noopener noreferrer"
-              download="Resume_SyumairaAzhar.pdf"
+              download="SyumairaAzhar_Resume.pdf"
             >
               <i className="fa-solid fa-file-arrow-down"></i> Download Resume
             </a>
